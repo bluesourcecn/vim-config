@@ -1,0 +1,24 @@
+{
+	"python.jediEnabled": false,
+	"python.workspaceSymbols.ctagsPath": "D:\\Environment\\Neovim\\runtime\\ctags\\ctags.exe",
+	"languageserver": {
+		"bash": {
+			"command": "D:\\Environment\\Neovim\\runtime\\languageservers\\bash-language-server\\node_modules\\.bin\\bash-language-server.cmd",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		},
+		
+		"efm": {
+			"command": "D:\\Environment\\Neovim\\runtime\\languageservers\\efm-langserver\\efm-langserver.exe",
+			"args": ["-c", "D:\\Environment\\Neovim\\runtime\\languageservers\\efm-langserver\\config.yaml"],
+			"filetypes": ["vim", "eruby", "markdown"]
+		},
+		
+		"sql": {
+			"command": "D:\\Environment\\Neovim\\runtime\\languageservers\\sql-language-server\\node_modules\\.bin\\sql-language-server.cmd",
+			"args" : ["up", "--method", "stdio"],
+			"filetypes": ["sql", "mysql"]
+		}
+	}
+}
