@@ -21,3 +21,4 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
 source ~\AppData\Local\nvim\init.vim
 set lines=50 columns=160
 set guifont=consolas:h10
+set backspace=indent,eol,start
