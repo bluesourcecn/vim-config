@@ -23,6 +23,7 @@ noremap <LEADER>rk :e ~/.nvimrc/core/keymaps.vim<CR>
 noremap <LEADER>re :e ~/.nvimrc/core/environment.vim<CR>
 noremap <LEADER>rb :e ~/.nvimrc/core/basicconf.vim<CR>
 noremap <LEADER>rp :e ~/.nvimrc/core/plugin.vim<CR>
+noremap <LEADER>cc :e ~/.nvimrc/coc-settings.json<CR>
 
 " ===
 " === Cursor Movement
