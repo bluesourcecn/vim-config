@@ -31,9 +31,6 @@ nnoremap Y y$
 " Copy to system clipboard
 vnoremap Y "+y
 
-" Search
-noremap <LEADER><CR> :nohlsearch<CR>
-
 " ===
 " === Cursor Movement
 " ===
