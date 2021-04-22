@@ -25,6 +25,15 @@ noremap <LEADER>rb :e ~/.nvimrc/core/basicconf.vim<CR>
 noremap <LEADER>rp :e ~/.nvimrc/core/plugin.vim<CR>
 noremap <LEADER>cc :e ~/.nvimrc/coc-settings.json<CR>
 
+" make Y to copy till the end of the line
+nnoremap Y y$
+
+" Copy to system clipboard
+vnoremap Y "+y
+
+" Search
+noremap <LEADER><CR> :nohlsearch<CR>
+
 " ===
 " === Cursor Movement
 " ===
