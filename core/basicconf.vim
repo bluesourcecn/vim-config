@@ -40,7 +40,6 @@ set splitbelow
 set noshowmode
 set showcmd
 set cmdheight=2
-set ambiwidth=double
 set wildmenu
 set ignorecase
 set smartcase
